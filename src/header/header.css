@@ -1,0 +1,72 @@
+#container {
+  background-color: #0707a9c4;
+  width: 100vw;
+  height: 75px;
+  line-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+#container a {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+#container a span {
+  font-size: 15px;
+}
+#left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.input {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background: #e0dfe726;
+  /* opacity: 0.3; */
+  width: 80%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  color: white;
+  /* margin: 0 50px; */
+}
+.input input {
+  color: #fff;
+  background: transparent;
+  outline: none;
+  border: none;
+  opacity: 0.4;
+}
+.input input::placeholder {
+  color: white;
+  /* opacity: 1;  */
+}
+
+.input i {
+  color: #fff;
+  opacity: 0.8;
+}
+#cal button {
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+#cal button:first-child {
+  /* background: red; */
+  border: 1px solid white;
+}
+#cal button:nth-child(2) {
+  background: #7afd78bf;
+  border: 1px solid #7afd78bf;
+}

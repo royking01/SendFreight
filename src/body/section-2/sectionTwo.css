@@ -1,0 +1,65 @@
+#up i {
+  background: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+#details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+#up {
+  box-sizing: border-box;
+  padding: 15px 0 0 0;
+}
+.location {
+  color: black;
+  background-color: #dbd4d46b;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.location i {
+  color: black;
+}
+.location p {
+  opacity: 0.5;
+  width: 100%;
+  margin: 0 10px;
+}
+.location input {
+  width: 50%;
+  height: 100%;
+  color: black;
+  position: relative;
+  left: -45%;
+}
+.location input::placeholder {
+  color: grey;
+}
+
+#details #cto button {
+  border: 1px solid #00000099;
+  color: #00000099;
+  outline: none;
+  background: transparent;
+  padding: 10px 20px;
+  /* margin-left: 15px; */
+}
+#details #cto button:nth-child(2) {
+  margin-left: 20px;
+}
+
+#final {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#final .location:first-child {
+  margin: 0;
+}

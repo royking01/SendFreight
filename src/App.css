@@ -1,0 +1,13 @@
+:root {
+  --pri: #0707a9c4;
+  --sec: #efefef;
+}
+* {
+  /* margin: 0;
+  padding: 0; */
+  /* box-sizing: border-box; */
+}
+#cont {
+  background: #efefef;
+  overflow: hidden;
+}
